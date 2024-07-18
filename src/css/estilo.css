@@ -2,7 +2,7 @@ body {
     font-family: "Poppins", sans-serif;
     max-width: 1280px;
     margin: 0 auto;
-    background-color: #faf16e;
+    background-color: #1294df;
     color: #333333;
 }
 
@@ -65,11 +65,11 @@ main .cartao-naruto {
 }
 
 main .cartao-naruto:hover {
-    background-color: #8f8c8c;
+    background-color: #cbe45f;
 }
 
 .modo-escuro .cartao-naruto{
-    background-color: #a8a8a8;
+    background-color: #46f6fc;
 }
 
 main .cartao-naruto .informacoes{
