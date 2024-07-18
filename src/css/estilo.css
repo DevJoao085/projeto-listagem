@@ -1,0 +1,136 @@
+body {
+    font-family: "Poppins", sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #fcf48e;
+    color: #333333;
+}
+
+body.modo-escuro {
+    background-color: #313131;
+    color: f5f5f5;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+
+header .logo,
+header .imagem-butao {
+    width: 120px;
+    transition: 1.2s;
+}
+
+header #butao-alterar-tema {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+header .logo:hover,
+header .imagem-butao:hover,
+main .cartao-naruto:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 1.2s;
+}
+
+main {
+    padding: 25px;
+}
+
+main .listagem-naruto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .cartao-naruto {
+    background-color: #d8e3ec;
+    width: 250px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+main .cartao-naruto:hover {
+    background-color: #8f8c8c;
+}
+
+.modo-escuro .cartao-naruto{
+    background-color: #a8a8a8;
+}
+
+main .cartao-naruto .informacoes{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+main .cartao-naruto .informacoes span{
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+main .cartao-naruto .gif{
+    width: 100px;
+    height: 120px;
+}
+
+main .cartao-naruto .tipos{
+    display: flex;
+    gap: 15px;
+}
+
+main .cartao-naruto .tipo{
+    padding: 6px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cla{
+    background-color: #ec9e0c ;
+    display: flex;
+    align-items: center;
+
+}
+.aldeia{
+    background-color:#168b16;
+}
+
+.aldeia-pedra{
+    background-color: #5a506b;
+    text-align:center ;
+    display: inline;
+    
+}
+
+.aldeia-areia{
+    background-color: #c78f8f;
+
+}
+.cartao-naruto .flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+ main .descricao{
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
+ }
